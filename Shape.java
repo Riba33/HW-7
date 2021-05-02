@@ -1,5 +1,5 @@
 public abstract class Shape implements Form {
-    private String name;
+    private final String name;
 
     protected Shape(String name) {
         this.name = name;
